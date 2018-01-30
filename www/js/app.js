@@ -11,6 +11,12 @@ window.addEventListener('load', function() {
             template: 'views/inici.html',
             controller: 'inici'
         }
+	    ,
+	 musica: {
+            url: '/musica',
+            template: 'views/musica.html',
+            controller: 'musca'
+	}
     });
      
     /*Declare modal*/
