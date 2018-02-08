@@ -10,17 +10,28 @@
 	<div class="container">
 	
 		<!-- <h1 class="paddingFull10">Content View A</h1> -->
-		<h3 style="color:blue">Reproductor de Buzos Rusos Bomba</h3>
-	
+		<h3 style="color:blue">Reproductor MP3</h3>
+		
 
+		
 
-
-			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('Inici')">Clicar per anar a Inici</button>
-	
+			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('inici')">Clicar per anar a inici</button>
+			
+      
+      <!-- Codi del meu Reproductor de Música -->
+       <audio class="col-md-12 center" id="audioTestElem" autobuffer controls >
+         <source src="musica/shooting_stars.mp3" type="audio/mp3">
+         El teu navegador no suporta l'etiqueta d'audio a HTML5.
+       </audio>
+		
 		<audio class="col-md-12 center" id="audioTestElem" autobuffer controls >
-<source src="musica/HarryPotterIntro.mp3" type="audio/mp3">
-El teu navegador no suporta l'etiqueta d'audio a HTML5.
-</audio>
+   <source src="musica/games_of_thrones.mp3" type="audio/mp3">
+         
+   El teu navegador no suporta l'etiqueta d'audio a HTML5.
+ </audio>
+      
+      
+      
 		
 		<!--
 			<button class="bgYellow btn-centrat" onClick="$JSView.goToView('viewC')">Pàgina C/3</button>
