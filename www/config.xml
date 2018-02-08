@@ -2,7 +2,7 @@
     
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "cat.numancia.PauGuinart"
+        id          = "cat.numancia.AdriàPlanas"
         versionCode = "03" 
         version     = "0.0.03" >
 	
@@ -10,14 +10,14 @@
 
 	<preference name="phonegap-version" value="cli-6.5.0" />
 
-    <name>Reproductor mp3</name>
+    <name>Reproductor de Buzos Rusos Bomba</name>
 
    <description>
-       Reproductor de música, Pau Guinart 4tA. 2017 - 2018.
+       Reproductor for Buzos Rusos Bomba sin Copyright, Adrià Planas 4tC. 2017 - 2018.
     </description>
 
-    <author href="https://github.com/pguinart11/app_mobil.git" email="pguinart11@iesnumancia.cat">
-       Pau Guinart
+    <author href="https://github.com/aplanas98/app_mobil.git" email="aplanas98@iesnumancia.cat">
+       Adrià Planas
     </author>
 
 	<content src="index.html"/>
